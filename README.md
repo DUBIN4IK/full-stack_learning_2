@@ -5,3 +5,6 @@ This project demonstrates various CSS selectors, their application, and specific
 ## Technologies
 * HTML5 (W3C validated)
 * CSS3 (Selectors & Specificity)
+
+## Usage
+Open `index.html` in any web browser to view the HTML/CSS selectors showcase.
