@@ -1,0 +1,39 @@
+p {
+  color:goldenrod
+}
+
+.class-selector {
+  color: darkslategray;
+}
+
+#id-selector {
+  color: springgreen;
+}
+
+[data-type] {
+  font-variant: small-caps;
+}
+
+div p {
+  font-style: italic;
+}
+
+div > p {
+  font-size: 20px;
+}
+
+br + p {
+  text-transform: uppercase;
+}
+
+hr ~ p {
+  text-shadow: 1px 1px 0 black;
+}
+
+button:hover {
+  background-color: blueviolet;
+}
+
+blockquote::first-letter {
+  font: italic small-caps bold 16px/2 cursive;
+}
