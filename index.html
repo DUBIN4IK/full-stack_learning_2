@@ -1,36 +1,123 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to page HW 4</title>
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Bookmark App</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
   </head>
   <body>
-    <p>Застосовується до всіх елементів p, вага 1</p>
-
-    <p class="class-selector">Застосовується до всіх елементів з класом class-selector, вага 10</p>
-
-    <p id="id-selector">Застосовується тільки до елемента з ідентифікатором id-selector, вага 100</p>
-
-    <p data-type>Застосовується до елементів з атрибутом data-type, вага 10</p>
-
-    <div>
-      <p>Застосовується до вкладеного елемента p в елементі div, вага 2</p>
-    </div>
-
-    <div>
-      <p>Застосовується до дочірнього елемента p в елементі div, вага 2</p>
-    </div>
-
-    <br>
-    <p>Застосовується до наступного тегу p одразу після тегу div, вага 2</p>
-
-    <hr>
-    <p>Застосовується до всіх сусідніх елементів p після тегу span, вага 2</p>
-
-    <button>Застосовується до елемента button при наведенні на нього курсора, вага 11</button>
-
-    <blockquote>Застосовується до першої літери елемента, вага 2</blockquote>
+    <header class="header">
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#html_and_css">HTML & CSS</a></li>
+          <li><a href="#java_script">JavaScript</a></li>
+          <li><a href="#git">Git</a></li>
+          <li><a href="#linux">Linux</a></li>
+          <li><a href="#docker">Docker</a></li>
+          <li><a href="#postgresql">PostgreSQL</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>Dev Bookmark App</h1>
+      <section id="html_and_css">
+        <h2>HTML & CSS</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              rel="noopener noreferrer"
+              >MDN HTML Documentation</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              rel="noopener noreferrer"
+              >MDN CSS Documentation</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="java_script">
+        <h2>JavaScript</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              rel="noopener noreferrer"
+              >MDN JavaScript Guide</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://javascript.info/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Modern JavaScript Tutorial</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="git">
+        <h2>Git</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://git-scm.com/doc"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Git Official Documentation</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="linux">
+        <h2>Linux</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://ubuntu.com/server/docs"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Ubuntu Documentation</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="docker">
+        <h2>Docker</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://docs.docker.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Docker Docs</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="postgresql">
+        <h2>PostgreSQL</h2>
+        <ul class="nav-list">
+          <li>
+            <a
+              href="https://www.postgresql.org/docs/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >PostgreSQL Documentation</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy Dev Bookmark App. All rights reserved.</p>
+    </footer>
   </body>
 </html>

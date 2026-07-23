@@ -1,39 +1,41 @@
-p {
-  color:goldenrod
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.class-selector {
-  color: darkslategray;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #ffffff;
 }
 
-#id-selector {
-  color: springgreen;
+.header,
+.main,
+.footer {
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #002966;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
 }
 
-[data-type] {
-  font-variant: small-caps;
+.nav-list {
+  list-style: none;
 }
 
-div p {
-  font-style: italic;
+.nav-list li {
+  display: inline-block;
+  margin-right: 15px;
 }
 
-div > p {
-  font-size: 20px;
+a {
+  text-decoration: none;
+  color: #66b2ff;
 }
 
-br + p {
-  text-transform: uppercase;
-}
-
-hr ~ p {
-  text-shadow: 1px 1px 0 black;
-}
-
-button:hover {
-  background-color: blueviolet;
-}
-
-blockquote::first-letter {
-  font: italic small-caps bold 16px/2 cursive;
+a:hover {
+  text-decoration: underline;
+  color: #ffffff;
 }
